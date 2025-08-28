@@ -1,0 +1,10 @@
+name = "sdl3-test"
+version = "0.1.0"
+defaultTargets = ["sdl3-test"]
+
+[[lean_lib]]
+name = "Sdl3Test"
+
+[[lean_exe]]
+name = "sdl3-test"
+root = "Main"
